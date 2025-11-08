@@ -1,0 +1,501 @@
+Food Item,Category,Quantity,target
+Pasta,Main,5,16.52
+Brownie,Dessert,4,17.27
+Pasta,Main,1,3.37
+Pasta,Main,5,2.2
+Soup,Starter,1,12.23
+Brownie,Dessert,5,7.39
+Soup,Starter,3,8.31
+Soup,Starter,4,2.28
+Pasta,Main,1,13.05
+Cake,Dessert,4,19.48
+Burger,Main,5,11.79
+Cake,Dessert,1,20.73
+Ice Cream,Dessert,5,4.77
+Fries,Starter,3,3.44
+Pizza,Main,1,4.84
+Cake,Dessert,5,19.49
+Salad,Starter,4,21.98
+Brownie,Dessert,1,21.83
+Salad,Starter,4,4.72
+Pasta,Main,3,21.48
+Fries,Starter,3,20.78
+Burger,Main,2,10.81
+Burger,Main,5,19.78
+Burger,Main,2,17.22
+Fries,Starter,3,16.68
+Fries,Starter,3,15.77
+Soup,Starter,3,24.45
+Soup,Starter,3,9.86
+Salad,Starter,4,7.64
+Soup,Starter,3,24.99
+Ice Cream,Dessert,1,14.82
+Brownie,Dessert,5,5.97
+Pizza,Main,3,19.67
+Cake,Dessert,1,22.1
+Soup,Starter,3,14.6
+Salad,Starter,5,17.38
+Ice Cream,Dessert,5,10.42
+Cake,Dessert,5,17.18
+Soup,Starter,1,14.27
+Soup,Starter,1,21.58
+Burger,Main,1,22.48
+Salad,Starter,2,12.43
+Cake,Dessert,4,21.78
+Pizza,Main,5,6.59
+Salad,Starter,1,7.31
+Brownie,Dessert,5,12.99
+Ice Cream,Dessert,2,4.37
+Ice Cream,Dessert,5,10.01
+Fries,Starter,3,22.14
+Soup,Starter,1,10.32
+Salad,Starter,1,10.79
+Cake,Dessert,3,5.18
+Salad,Starter,5,3.53
+Pasta,Main,4,23.55
+Cake,Dessert,4,6.61
+Salad,Starter,5,15.44
+Brownie,Dessert,3,15.07
+Soup,Starter,1,17.38
+Fries,Starter,1,19.75
+Brownie,Dessert,2,10.24
+Brownie,Dessert,1,12.0
+Salad,Starter,5,14.18
+Ice Cream,Dessert,3,8.02
+Burger,Main,4,9.02
+Brownie,Dessert,5,12.07
+Cake,Dessert,4,10.62
+Salad,Starter,4,13.08
+Fries,Starter,4,7.58
+Cake,Dessert,3,5.33
+Pasta,Main,2,4.9
+Cake,Dessert,4,3.79
+Ice Cream,Dessert,1,17.82
+Pizza,Main,2,9.13
+Brownie,Dessert,3,21.28
+Brownie,Dessert,3,6.18
+Fries,Starter,4,6.95
+Ice Cream,Dessert,3,19.07
+Pizza,Main,4,17.14
+Soup,Starter,2,9.87
+Salad,Starter,4,4.45
+Brownie,Dessert,4,22.68
+Brownie,Dessert,4,17.02
+Pasta,Main,1,5.41
+Salad,Starter,3,9.52
+Fries,Starter,2,3.8
+Burger,Main,4,21.01
+Brownie,Dessert,1,19.99
+Ice Cream,Dessert,4,19.48
+Cake,Dessert,1,17.86
+Salad,Starter,1,15.57
+Cake,Dessert,2,16.45
+Salad,Starter,3,3.84
+Ice Cream,Dessert,3,17.1
+Brownie,Dessert,3,18.95
+Cake,Dessert,5,20.81
+Pizza,Main,4,15.11
+Fries,Starter,5,9.49
+Fries,Starter,2,5.93
+Brownie,Dessert,3,21.93
+Soup,Starter,2,13.38
+Pasta,Main,4,18.54
+Salad,Starter,5,5.87
+Salad,Starter,3,8.7
+Ice Cream,Dessert,5,16.81
+Pasta,Main,3,6.4
+Pizza,Main,4,8.66
+Salad,Starter,4,21.35
+Pizza,Main,1,6.17
+Pizza,Main,1,23.88
+Burger,Main,4,4.68
+Cake,Dessert,4,10.8
+Burger,Main,5,10.93
+Cake,Dessert,4,3.47
+Pasta,Main,5,20.07
+Burger,Main,5,2.35
+Fries,Starter,1,8.88
+Salad,Starter,5,21.85
+Burger,Main,3,22.52
+Cake,Dessert,5,19.65
+Brownie,Dessert,5,23.28
+Brownie,Dessert,1,20.5
+Brownie,Dessert,5,7.57
+Salad,Starter,2,5.95
+Pizza,Main,2,2.17
+Pizza,Main,5,18.14
+Ice Cream,Dessert,1,14.93
+Ice Cream,Dessert,1,4.1
+Pasta,Main,1,7.93
+Fries,Starter,3,5.49
+Pasta,Main,4,3.07
+Burger,Main,1,9.28
+Salad,Starter,2,8.41
+Salad,Starter,4,13.31
+Soup,Starter,4,21.02
+Ice Cream,Dessert,4,19.19
+Brownie,Dessert,5,16.54
+Cake,Dessert,1,10.69
+Brownie,Dessert,1,22.89
+Soup,Starter,2,12.87
+Pizza,Main,3,6.65
+Soup,Starter,1,20.0
+Brownie,Dessert,3,2.16
+Pizza,Main,1,2.46
+Brownie,Dessert,1,5.68
+Fries,Starter,2,10.54
+Brownie,Dessert,4,14.35
+Burger,Main,4,13.99
+Fries,Starter,3,4.63
+Burger,Main,5,4.95
+Fries,Starter,1,6.07
+Brownie,Dessert,5,22.18
+Brownie,Dessert,5,9.88
+Pizza,Main,3,11.61
+Pasta,Main,1,17.89
+Cake,Dessert,1,4.57
+Salad,Starter,5,8.06
+Soup,Starter,4,5.53
+Ice Cream,Dessert,1,21.76
+Brownie,Dessert,1,24.96
+Pizza,Main,5,9.43
+Pizza,Main,4,16.4
+Cake,Dessert,2,4.09
+Pizza,Main,3,24.52
+Brownie,Dessert,3,3.84
+Cake,Dessert,3,17.26
+Brownie,Dessert,5,20.81
+Pizza,Main,3,7.71
+Burger,Main,4,21.64
+Salad,Starter,4,6.1
+Fries,Starter,2,10.24
+Salad,Starter,2,5.34
+Salad,Starter,3,22.49
+Pizza,Main,5,16.93
+Salad,Starter,5,21.15
+Cake,Dessert,1,3.02
+Soup,Starter,3,8.73
+Brownie,Dessert,1,20.54
+Burger,Main,1,17.97
+Pasta,Main,2,23.6
+Pizza,Main,2,3.76
+Pizza,Main,5,10.14
+Salad,Starter,2,15.56
+Cake,Dessert,5,22.96
+Pizza,Main,2,2.64
+Fries,Starter,5,15.29
+Soup,Starter,4,3.07
+Salad,Starter,3,3.13
+Pasta,Main,3,18.74
+Pasta,Main,1,23.91
+Soup,Starter,2,17.97
+Salad,Starter,4,22.14
+Pizza,Main,4,18.08
+Pizza,Main,3,7.77
+Fries,Starter,2,15.2
+Pizza,Main,4,11.07
+Soup,Starter,3,3.33
+Brownie,Dessert,1,4.58
+Cake,Dessert,1,4.19
+Fries,Starter,4,17.26
+Burger,Main,5,12.3
+Brownie,Dessert,2,18.78
+Burger,Main,3,2.42
+Brownie,Dessert,5,9.64
+Burger,Main,2,9.76
+Cake,Dessert,3,8.03
+Soup,Starter,1,19.13
+Pizza,Main,5,9.58
+Fries,Starter,1,19.41
+Ice Cream,Dessert,5,19.48
+Fries,Starter,5,7.5
+Pizza,Main,5,5.38
+Cake,Dessert,3,5.09
+Fries,Starter,1,19.11
+Burger,Main,1,20.63
+Ice Cream,Dessert,4,21.39
+Cake,Dessert,3,2.26
+Pasta,Main,4,18.54
+Pasta,Main,4,23.84
+Burger,Main,3,16.3
+Ice Cream,Dessert,4,7.15
+Cake,Dessert,1,11.95
+Pizza,Main,3,20.29
+Pizza,Main,1,12.15
+Ice Cream,Dessert,1,13.78
+Burger,Main,2,9.17
+Brownie,Dessert,5,9.32
+Cake,Dessert,3,6.01
+Burger,Main,3,11.5
+Fries,Starter,2,22.82
+Burger,Main,3,14.93
+Ice Cream,Dessert,3,23.47
+Pizza,Main,4,14.73
+Pasta,Main,3,6.38
+Ice Cream,Dessert,2,6.19
+Pasta,Main,4,7.76
+Salad,Starter,4,17.71
+Pasta,Main,5,16.28
+Fries,Starter,3,17.61
+Salad,Starter,1,12.71
+Fries,Starter,3,8.6
+Soup,Starter,5,2.51
+Brownie,Dessert,5,12.33
+Soup,Starter,5,22.33
+Cake,Dessert,2,18.29
+Fries,Starter,3,8.73
+Fries,Starter,1,8.92
+Burger,Main,5,22.71
+Cake,Dessert,5,6.64
+Ice Cream,Dessert,5,7.76
+Fries,Starter,5,12.02
+Pizza,Main,5,8.54
+Salad,Starter,1,20.33
+Ice Cream,Dessert,5,3.44
+Ice Cream,Dessert,3,24.52
+Soup,Starter,4,16.89
+Burger,Main,5,19.01
+Pizza,Main,4,4.07
+Cake,Dessert,3,18.92
+Salad,Starter,1,15.78
+Pizza,Main,2,7.16
+Fries,Starter,4,2.81
+Brownie,Dessert,3,12.74
+Cake,Dessert,4,16.17
+Fries,Starter,3,20.32
+Salad,Starter,1,6.23
+Burger,Main,5,6.91
+Burger,Main,2,18.83
+Brownie,Dessert,1,8.92
+Salad,Starter,1,20.57
+Fries,Starter,5,5.92
+Pasta,Main,5,20.85
+Pizza,Main,2,24.7
+Soup,Starter,4,11.67
+Burger,Main,4,8.19
+Pizza,Main,5,11.26
+Salad,Starter,2,2.08
+Brownie,Dessert,2,8.43
+Cake,Dessert,1,20.93
+Pizza,Main,4,23.01
+Fries,Starter,4,3.6
+Ice Cream,Dessert,3,11.34
+Fries,Starter,4,16.74
+Pizza,Main,2,22.99
+Burger,Main,1,18.24
+Fries,Starter,3,15.93
+Burger,Main,5,5.63
+Pasta,Main,3,20.01
+Pizza,Main,4,22.44
+Ice Cream,Dessert,5,3.97
+Pasta,Main,5,24.02
+Pizza,Main,5,17.0
+Pasta,Main,2,21.07
+Pizza,Main,1,3.89
+Ice Cream,Dessert,2,8.57
+Ice Cream,Dessert,4,14.17
+Fries,Starter,5,21.43
+Soup,Starter,5,14.74
+Pasta,Main,4,2.69
+Fries,Starter,1,6.67
+Pasta,Main,2,14.85
+Ice Cream,Dessert,2,3.79
+Pizza,Main,5,13.3
+Burger,Main,4,14.15
+Brownie,Dessert,2,4.1
+Soup,Starter,2,16.98
+Brownie,Dessert,1,23.87
+Burger,Main,3,3.26
+Soup,Starter,5,10.83
+Pizza,Main,5,4.09
+Brownie,Dessert,1,11.66
+Soup,Starter,2,6.12
+Salad,Starter,5,6.99
+Cake,Dessert,5,16.07
+Fries,Starter,5,9.0
+Soup,Starter,3,19.13
+Salad,Starter,1,13.44
+Cake,Dessert,1,5.14
+Fries,Starter,3,24.74
+Burger,Main,5,20.75
+Pizza,Main,3,19.29
+Pasta,Main,4,16.48
+Pasta,Main,2,13.69
+Cake,Dessert,1,17.95
+Brownie,Dessert,1,16.84
+Pasta,Main,3,4.5
+Soup,Starter,4,20.47
+Pizza,Main,3,17.18
+Fries,Starter,3,16.38
+Burger,Main,4,4.46
+Fries,Starter,1,18.78
+Cake,Dessert,2,23.5
+Soup,Starter,5,17.04
+Brownie,Dessert,5,6.02
+Fries,Starter,1,16.38
+Pizza,Main,1,5.37
+Burger,Main,4,21.44
+Pizza,Main,1,16.31
+Ice Cream,Dessert,1,4.6
+Pasta,Main,3,12.29
+Salad,Starter,1,13.11
+Cake,Dessert,5,22.63
+Cake,Dessert,5,12.26
+Burger,Main,3,11.86
+Salad,Starter,1,9.02
+Ice Cream,Dessert,1,9.7
+Soup,Starter,4,8.76
+Ice Cream,Dessert,1,10.11
+Fries,Starter,3,7.91
+Ice Cream,Dessert,4,13.71
+Ice Cream,Dessert,1,16.94
+Soup,Starter,5,24.88
+Brownie,Dessert,1,13.91
+Soup,Starter,1,18.17
+Ice Cream,Dessert,4,2.51
+Pasta,Main,1,13.86
+Brownie,Dessert,2,2.62
+Pizza,Main,1,16.55
+Burger,Main,4,22.68
+Fries,Starter,3,9.42
+Pasta,Main,5,24.87
+Pasta,Main,3,15.26
+Salad,Starter,1,9.07
+Pasta,Main,5,11.9
+Soup,Starter,5,12.25
+Pasta,Main,4,3.5
+Ice Cream,Dessert,2,18.21
+Brownie,Dessert,1,7.33
+Cake,Dessert,2,8.52
+Pasta,Main,4,24.36
+Brownie,Dessert,4,9.4
+Fries,Starter,2,6.3
+Salad,Starter,2,18.47
+Ice Cream,Dessert,1,13.62
+Fries,Starter,5,9.07
+Salad,Starter,5,6.46
+Burger,Main,1,8.13
+Pizza,Main,3,14.58
+Brownie,Dessert,2,9.81
+Burger,Main,1,7.43
+Cake,Dessert,4,16.02
+Pizza,Main,1,19.62
+Pizza,Main,2,5.31
+Burger,Main,4,3.18
+Fries,Starter,4,12.8
+Ice Cream,Dessert,3,4.05
+Salad,Starter,1,6.8
+Ice Cream,Dessert,2,3.8
+Pasta,Main,5,18.18
+Brownie,Dessert,1,21.71
+Salad,Starter,2,22.45
+Soup,Starter,5,13.95
+Pasta,Main,1,16.06
+Burger,Main,2,12.61
+Salad,Starter,5,23.15
+Ice Cream,Dessert,1,11.52
+Fries,Starter,5,17.43
+Cake,Dessert,3,24.03
+Pasta,Main,2,7.19
+Salad,Starter,3,11.61
+Burger,Main,3,4.78
+Pasta,Main,5,10.46
+Pizza,Main,4,22.41
+Salad,Starter,4,22.46
+Fries,Starter,2,22.97
+Cake,Dessert,4,22.78
+Salad,Starter,1,15.84
+Fries,Starter,2,24.51
+Cake,Dessert,5,10.53
+Burger,Main,4,19.86
+Brownie,Dessert,3,13.97
+Brownie,Dessert,1,17.35
+Pasta,Main,5,14.17
+Pizza,Main,1,6.27
+Brownie,Dessert,4,12.91
+Cake,Dessert,3,14.89
+Pizza,Main,1,20.26
+Salad,Starter,2,15.5
+Burger,Main,2,22.54
+Fries,Starter,5,20.81
+Ice Cream,Dessert,2,8.85
+Soup,Starter,5,5.12
+Cake,Dessert,1,2.51
+Cake,Dessert,3,7.48
+Fries,Starter,4,18.67
+Brownie,Dessert,4,23.76
+Pizza,Main,5,8.86
+Fries,Starter,4,21.58
+Cake,Dessert,5,4.4
+Cake,Dessert,2,19.52
+Pizza,Main,1,10.08
+Burger,Main,4,19.73
+Brownie,Dessert,4,13.24
+Soup,Starter,5,2.44
+Ice Cream,Dessert,4,10.0
+Pizza,Main,1,22.59
+Ice Cream,Dessert,5,9.69
+Fries,Starter,2,21.63
+Soup,Starter,5,23.02
+Pizza,Main,4,3.61
+Pasta,Main,4,20.7
+Brownie,Dessert,5,3.58
+Pizza,Main,1,5.11
+Cake,Dessert,5,13.65
+Pizza,Main,4,18.38
+Pizza,Main,4,17.87
+Fries,Starter,3,17.36
+Ice Cream,Dessert,3,14.01
+Fries,Starter,2,18.8
+Brownie,Dessert,4,15.75
+Soup,Starter,1,6.65
+Brownie,Dessert,4,24.79
+Pizza,Main,2,3.25
+Fries,Starter,4,6.04
+Salad,Starter,3,22.03
+Pasta,Main,2,17.57
+Pizza,Main,3,23.69
+Pasta,Main,2,7.19
+Cake,Dessert,5,19.21
+Salad,Starter,1,21.57
+Fries,Starter,2,4.4
+Ice Cream,Dessert,4,16.21
+Ice Cream,Dessert,4,12.85
+Salad,Starter,4,17.29
+Pizza,Main,3,9.64
+Soup,Starter,1,12.99
+Brownie,Dessert,2,20.3
+Burger,Main,5,14.54
+Fries,Starter,1,16.32
+Brownie,Dessert,4,19.7
+Cake,Dessert,2,8.64
+Pizza,Main,1,13.85
+Soup,Starter,2,24.01
+Soup,Starter,1,24.64
+Brownie,Dessert,5,2.81
+Pizza,Main,3,21.3
+Ice Cream,Dessert,2,4.24
+Ice Cream,Dessert,1,12.57
+Burger,Main,4,9.64
+Burger,Main,2,6.44
+Brownie,Dessert,5,7.94
+Salad,Starter,2,15.76
+Ice Cream,Dessert,4,2.06
+Soup,Starter,1,4.58
+Soup,Starter,1,16.58
+Burger,Main,5,2.15
+Pasta,Main,5,12.83
+Ice Cream,Dessert,2,13.64
+Fries,Starter,4,15.55
+Pizza,Main,4,21.66
+Burger,Main,1,5.86
+Brownie,Dessert,4,20.26
+Ice Cream,Dessert,2,2.27
+Pizza,Main,1,8.5
+Soup,Starter,4,13.64
+Brownie,Dessert,1,2.59
+Pizza,Main,1,21.31
+Soup,Starter,3,15.99
+Pasta,Main,2,8.54
+Soup,Starter,5,20.54
+Ice Cream,Dessert,2,18.86

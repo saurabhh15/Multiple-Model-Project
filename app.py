@@ -38,100 +38,6 @@ st.write(temp_df.sample(2))
 
 np.random.seed(23)
 
-# X_all_input = []
-# for col in temp_df.columns[:-1]:  # exclude target column
-#     col_dtype = temp_df[col].dtype
-#     if col_dtype == object:
-#         options = temp_df[col].unique()
-#         choice = st.sidebar.selectbox(f'Select {col} value', options)
-#         X_all_input.append(choice)
-#         st.sidebar.write(f"You selected: {choice}")
-#     elif col_dtype == bool:
-#         options = [True, False]
-#         choice = st.sidebar.selectbox(f'Select {col} value', options)
-#         X_all_input.append(choice)
-#         st.sidebar.write(f"You selected: {choice}")
-#     else:  # numeric
-#         min_f, max_f = temp_df[col].agg(['min', 'max']).values
-#         if min_f == max_f:  # prevent slider crash
-#             max_f = max_f + 1
-#         choice = st.sidebar.slider(f'{col}', float(min_f), float(max_f),
-#                                    float(temp_df[col].sample(1).values[0]))
-#         X_all_input.append(choice)
-
-# X_input = pd.DataFrame([X_all_input], columns=temp_df.columns[:-1])
-# st.subheader('User Selected Choice:')
-# st.write(X_input)
-
-# # ------------------------------------------------------------
-# # Load model pipeline
-# # ------------------------------------------------------------
-# model_name = user_project_selection.lower()
-# final_model_name = model_name + '_ml_brain.pkl'
-
-# with open(final_model_name, 'rb') as f:
-#     chatgpt_brain = pickle.load(f)
-
-# # ------------------------------------------------------------
-# # ✅ FIX: Load encoded columns dictionary
-# # ------------------------------------------------------------
-# encoded_dict_name = 'encoded_columns_dict.pkl'
-# try:
-#     with open(encoded_dict_name, 'rb') as f:
-#         encoded_columns_dict = pickle.load(f)
-# except FileNotFoundError:
-#     st.warning("Encoded columns dictionary file not found. Using fallback.")
-#     encoded_columns_dict = {}
-
-# # ------------------------------------------------------------
-# # Handle categorical encoding alignment
-# # ------------------------------------------------------------
-# if user_project_selection.lower() in ['car', 'order', 'restraunt']:
-#     # Get encoded columns for current project
-#     encoded_cols = encoded_columns_dict.get(user_project_selection.lower() + '_df')
-#     if encoded_cols is None:
-#         st.error("Encoded columns for this project not found in dictionary.")
-#         st.stop()
-
-#     # Encode user input
-#     input_encoded = pd.get_dummies(X_input, drop_first=True, dtype=int)
-#     # Reindex to match training columns
-#     input_encoded = input_encoded.reindex(columns=encoded_cols, fill_value=0)
-#     final_X = input_encoded
-# else:
-#     final_X = X_input
-
-# # ------------------------------------------------------------
-# # Make prediction
-# # ------------------------------------------------------------
-# predicted_value = chatgpt_brain.predict(final_X)
-# final_predicted_value = predicted_value[0]
-
-# # ------------------------------------------------------------
-# # Display target-specific labels
-# # ------------------------------------------------------------
-# car_target_names = ['Car price']
-# student_target_names = ['Salary']
-# cancer_target_names = ['malignant', 'benign']
-# order_target_names = ['Price']
-# diabetes_target_names = ['diabetes progress']
-
-# target = None
-# ans_name = ''
-
-# if user_project_selection.lower() == 'student':
-#     target = student_target_names
-#     ans_name = 'Prediction is: '
-# elif user_project_selection.lower() == 'cancer':
-#     target = cancer_target_names
-#     ans_name = 'Prediction: '
-
-# # ------------------------------------------------------------
-# # Display final prediction
-# # ------------------------------------------------------------
-# st.subheader(ans_name)
-# st.write(final_predicted_value)
-
 X_all_input = []
 for col in temp_df.columns[:-1]:  # exclude target column
     col_dtype = temp_df[col].dtype
@@ -150,11 +56,10 @@ for col in temp_df.columns[:-1]:  # exclude target column
         if min_f == max_f:  # prevent slider crash
             max_f = max_f + 1
         choice = st.sidebar.slider(f'{col}', float(min_f), float(max_f),
-                                    float(temp_df[col].sample(1).values[0]))
+                                   float(temp_df[col].sample(1).values[0]))
         X_all_input.append(choice)
 
-# This is the raw user input, just as the pipeline expects it!
-X_input = pd.DataFrame([X_all_input], columns=temp_df.columns[:-1]) 
+X_input = pd.DataFrame([X_all_input], columns=temp_df.columns[:-1])
 st.subheader('User Selected Choice:')
 st.write(X_input)
 
@@ -168,21 +73,38 @@ with open(final_model_name, 'rb') as f:
     chatgpt_brain = pickle.load(f)
 
 # ------------------------------------------------------------
-#  ✅ FIX: ALL MANUAL PREPROCESSING BLOCKS HAVE BEEN REMOVED
+# ✅ FIX: Load encoded columns dictionary
 # ------------------------------------------------------------
-#
-# The 'encoded_columns_dict.pkl' file is no longer needed.
-# The 'pd.get_dummies' and 'reindex' calls are no longer needed.
-# The pipeline 'chatgpt_brain' will handle all of this automatically.
-#
-# ------------------------------------------------------------
+encoded_dict_name = 'encoded_columns_dict.pkl'
+try:
+    with open(encoded_dict_name, 'rb') as f:
+        encoded_columns_dict = pickle.load(f)
+except FileNotFoundError:
+    st.warning("Encoded columns dictionary file not found. Using fallback.")
+    encoded_columns_dict = {}
 
+# ------------------------------------------------------------
+# Handle categorical encoding alignment
+# ------------------------------------------------------------
+if user_project_selection.lower() in ['car', 'order', 'restraunt']:
+    # Get encoded columns for current project
+    encoded_cols = encoded_columns_dict.get(user_project_selection.lower() + '_df')
+    if encoded_cols is None:
+        st.error("Encoded columns for this project not found in dictionary.")
+        st.stop()
+
+    # Encode user input
+    input_encoded = pd.get_dummies(X_input, drop_first=True, dtype=int)
+    # Reindex to match training columns
+    input_encoded = input_encoded.reindex(columns=encoded_cols, fill_value=0)
+    final_X = input_encoded
+else:
+    final_X = X_input
 
 # ------------------------------------------------------------
 # Make prediction
 # ------------------------------------------------------------
-# ✅ FIX: Predict using the raw 'X_input' DataFrame.
-predicted_value = chatgpt_brain.predict(X_input)
+predicted_value = chatgpt_brain.predict(final_X)
 final_predicted_value = predicted_value[0]
 
 # ------------------------------------------------------------
